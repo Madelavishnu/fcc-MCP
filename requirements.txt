@@ -1,1 +1,5 @@
 fastmcp
+langchain
+openai
+matplotlib
+scikit-image
