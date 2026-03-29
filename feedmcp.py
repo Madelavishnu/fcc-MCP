@@ -27,4 +27,4 @@ def add(a:float,b:float) -> float:
 
 if __name__ == "__main__":
     
-    mcp.run(transport="http", host = "localhost",port = 8003)
+    mcp.run(transport="http")
