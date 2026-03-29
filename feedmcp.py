@@ -25,5 +25,10 @@ def add(a:float,b:float) -> float:
     """
     return a+b
 
+
+@mcp.prompt()
+def create_image():
+    return "you are a helpful generating images assistant that generate image with clear pixels" 
+
 if __name__ == "__main__":
     mcp.run(transport="http", host = "127.0.0.1", port = "8005")
